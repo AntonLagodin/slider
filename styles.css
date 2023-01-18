@@ -21,46 +21,6 @@ img {
     height: 100%;
 }
 
-div.menu {
-    position: fixed;
-    z-index: 10;
-    width: 3rem;
-    height: 3rem;
-    background-color: #000000;
-    transition: width 0.5s linear;
-}
-
-div.menu i {
-    font-size: 3rem;
-    color: #ffffff;
-}
-
-div.menu nav {
-    position: absolute;
-    top: 3rem;
-    left: calc(-20vh - 0.5em);
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    max-height: calc(100vh - 3.5rem);
-    overflow-y: scroll;
-    background-color: #000000;
-    transition: all 0.5s ease;
-}
-
-div.menu nav label {
-    cursor: pointer;
-    width: 20vh;
-}
-
-div.menu:hover {
-    width: 20vh;
-}
-
-div.menu:hover nav{
-    left: 0;
-}
-
 div.slider {
     width: 500px;
     height: 611px;
